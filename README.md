@@ -41,14 +41,13 @@ Confusion Matrix
 Hyperparameter Tuning
 
 Hyperparameter tuning is performed using scikit-learn's RandomizedSearchCV to optimize the XGBoost model. Key parameters tuned include:
-
-learning_rate
-max_depth
-min_child_weight
-subsample
-colsample_bytree
-gamma
-reg_alpha
-reg_lambda
+-learning_rate
+-max_depth
+-min_child_weight
+-subsample
+-colsample_bytree
+-gamma
+-reg_alpha
+-reg_lambda
 
 A randomized search approach is used to reduce computational time by testing a subset of all possible parameter combinations.
